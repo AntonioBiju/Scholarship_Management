@@ -1,0 +1,48 @@
+#python version
+python --version
+
+#install env
+pip install pipenv
+
+#activate virtual env
+python -m pipenv shell
+
+#check virtual environment
+python -m pipenv venv
+
+#install django
+pip install django
+
+#django admin
+django-admin
+
+#start project in django
+django-admin startprojet project_name .
+
+#run project
+python manage.py runserver
+
+#start app in project
+python manage.py startapp appname
+
+#run app
+python manage.py runserver
+
+#run 
+python manage.py runserver
+
+#mysql package
+pip install mysqlclient
+
+Go to settings.py
+
+search -> Databases=[change the engine & set the name, user , password, host]
+
+static files
+[python manage.py -h]
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuperuser
